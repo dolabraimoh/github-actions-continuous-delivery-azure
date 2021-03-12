@@ -1,4 +1,4 @@
-name: Staging - workflow
+name: Stage the app
 
 on: 
   pull_request:
@@ -6,4 +6,4 @@ on:
 
 jobs:
   build:
-    
+    runs-on: ubuntu-latest
