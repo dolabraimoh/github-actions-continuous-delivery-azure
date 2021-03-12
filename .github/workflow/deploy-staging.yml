@@ -1,9 +1,8 @@
 name: Stage the app
 
 on: 
-  pull_request:
-    push:
-         staging-workflow
+ push:
+     staging-workflow
     
 
 jobs:
