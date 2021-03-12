@@ -2,7 +2,8 @@ name: Stage the app
 
 on: 
   pull_request:
-    types: v1.0.0
+    types: 
+      spin up environment
 
 jobs:
   build:
